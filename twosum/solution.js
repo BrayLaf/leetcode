@@ -4,17 +4,16 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
+    const hash = new Map();
     for(var i = 0; i < nums.length; i++){
-        var hash = new Map();
-
         var currentNum = nums[i];
 
-        var complement = currentNum - target;
+        var complement = target - currentNum;
         if(hash.has(complement)){
             return [hash.get(complement), i];
         }
 
-        hash.set(complement, i);
+        hash.set(currentNum, i);
     }
 
     return [];
