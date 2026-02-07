@@ -16,3 +16,5 @@ Felt very confident going into this one. I was aiming for an O(n) solution from 
 ### Day 4 Merge Sorted Array
 A fairly simple one, not sure why but not returning an array and just editing array 1 one to be the result kinda got me at the end. It was a super simple fix but I just kept overlooking it.
 
+### Day 5 Remove Element
+Admittedly a very simple one but solving this one felt really smooth and I enjoyed the process.
