@@ -18,3 +18,12 @@ A fairly simple one, not sure why but not returning an array and just editing ar
 
 ### Day 5 Remove Element
 Admittedly a very simple one but solving this one felt really smooth and I enjoyed the process.
+
+
+### Day 6 Remove Duplicates from Sorted Array
+
+The use of Read/Write indexes here was super fun to implement, hopefully will use them again in the future.
+
+### Day 7 Remove Duplicates from Sorted Array 2
+
+Took the wrong approach to this one at first trying to use a window and writing to the middle value if all 3 were equal, realized I was going about it wrong and went back to the solution for the first Remove duplicates. Used a similar Read/Write approach for this one.
