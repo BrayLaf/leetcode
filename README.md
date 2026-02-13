@@ -27,3 +27,7 @@ The use of Read/Write indexes here was super fun to implement, hopefully will us
 ### Day 7 Remove Duplicates from Sorted Array 2
 
 Took the wrong approach to this one at first trying to use a window and writing to the middle value if all 3 were equal, realized I was going about it wrong and went back to the solution for the first Remove duplicates. Used a similar Read/Write approach for this one.
+
+### Day 8 Majority Element
+
+Super simple at first glance, tried with a hashmap approach at first and was able to complete it with that approach but it was O(n) space due to the worst case of every element in the array being unique. Went with a very simple count with a ternary expression that will add or decrease the count ultimately leading to the majority element being found.
