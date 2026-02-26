@@ -31,3 +31,7 @@ Took the wrong approach to this one at first trying to use a window and writing 
 ### Day 8 Majority Element
 
 Super simple at first glance, tried with a hashmap approach at first and was able to complete it with that approach but it was O(n) space due to the worst case of every element in the array being unique. Went with a very simple count with a ternary expression that will add or decrease the count ultimately leading to the majority element being found.
+
+### Day 9 Rotate Array
+
+### Day 10 Best Time to Buy and Sell Stock
